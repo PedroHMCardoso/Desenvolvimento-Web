@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Form 2</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <table>
+            <tr>
+                <td colspan="4">
+                    Nome:
+                    <label for="nome"></label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Endereço:
+                    <label for="endereço"></label>
+                    <input type="text" name="endereço" placeholder="Digite seu endereço">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Cidade:
+                    <label for="Cidade"></label>
+                    <input type="text" name="Cidade" placeholder="Digite sua cidade">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Estado
+                    <label for="Estado"></label>
+                    <select name="Estado">
+                        
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+            <table>
+                <tr>
+                    <td>
+                        Natureza do Cargo
+                        <br>
+                        <label for="Cargo"></label>
+                        <input type="radio" name="cargo">Gerência</input>
+                        <input type="radio" name="cargo">Financeiro</input>
+                        <input type="radio" name="cargo">Recepção</input>
+                        <input type="radio" name="cargo">Administrativo</input>
+                        <input type="radio" name="cargo">Jurídico</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Área de Interesse
+                        <br>
+                        <label for="area"></label>
+                        <input type="checkbox" name="area">Computação</input><input type="checkbox" name="area">Financeiro</input><input type="checkbox" name="area">Recepção</input><input type="checkbox" name="area">Engenharia</input><input type="checkbox" name="area">História</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mini-curriculo:
+                        <label for="curriculo"></label>
+                        <textarea name="curriculo" rows="10" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
