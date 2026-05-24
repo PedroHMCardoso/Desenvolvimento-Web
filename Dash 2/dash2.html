@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash2</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#">
+                    <span class="material-icons dash">dashboard</span>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-person">person</span>
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-statistics">analytics</span>
+                    <span class="text">Statistics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-brief">business_center</span>
+                    <span class="text">Carrers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-faq">help</span>
+                    <span class="text">FAQ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-star">star</span>
+                    <span class="text">Testimonials</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-icons logo-settings">settings</span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <span class="material-icons logo-logout">logout</span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user-info">
+                <div class="search-box">
+                    <span class="material-icons logo-search">search</span>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="img.jpeg" alt="">
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <h3 class="main-title">Today's data</h3>
+            <div class="card-wrapper">
+                <div class="payment-card light-red">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Amount
+                            </span>
+                            <span class="amount-value">$500.00</span>
+                        </div>
+                        <span class="material-icons logo-payment dark-red">attach_money</span>
+                    </div>
+                    <span class="card-detail">**** **** **** 8954</span>
+                </div>
+                <div class="payment-card light-purple">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Order
+                            </span>
+                            <span class="amount-value">$200.00</span>
+                        </div>
+                        <span class="material-icons logo-payment dark-purple">lists</span>
+                    </div>
+                    <span class="card-detail">**** **** **** 9526</span>
+                </div>
+                <div class="payment-card light-green">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Custumer
+                            </span>
+                            <span class="amount-value">$350.00</span>
+                        </div>
+                        <span class="material-icons logo-payment dark-green">groups</span>
+                    </div>
+                    <span class="card-detail">**** **** **** 4821</span>
+                </div>
+                <div class="payment-card light-blue">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Proceed
+                            </span>
+                            <span class="amount-value">$150.00</span>
+                        </div>
+                        <span class="material-icons logo-payment dark-blue">check</span>
+                    </div>
+                    <span class="card-detail">**** **** **** 6325</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabular-wrapper">
+            <h3 class="main-title">Finace Data</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Transaction</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                2026-05-01
+                            </td>
+                            <td>
+                                Expenses
+                            </td>
+                            <td>
+                                Office Suplies
+                            </td>
+                            <td>$600</td>
+                            <td>Office Expenses</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2026-05-02
+                            </td>
+                            <td>
+                                Income
+                            </td>
+                            <td>
+                                Client Payment
+                            </td>
+                            <td>$100</td>
+                            <td>Sales</td>
+                            <td>Completed</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2026-05-03
+                            </td>
+                            <td>
+                                Expenses
+                            </td>
+                            <td>
+                                Travel Expenses
+                            </td>
+                            <td>$300</td>
+                            <td>Travel</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="7">
+                                    Total: $1,000
+                                </td>
+                            </tr>
+                        </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
